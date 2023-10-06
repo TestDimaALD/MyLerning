@@ -1,0 +1,30 @@
+# Инициализация локального репозитория
+1. Переходим в директорию которую хотим сделать (инициализировать) локальным репозиторием
+2. выполняем команду git init
+
+# Настройки Git
+git config --list
+
+#Установка пользователя и E-Mail
+git config --global user.name "TestDimaALD"
+git config --global user.email Dmitry.PUGIN@aldautomotive.ru
+
+# Получение репозитория
+git clone https://github.com/TestDimaALD/Work.git
+git clone https://github.com/jquery/jquery.git 
+
+# Отправка всех изменений в репозиторий на GitHabe
+git push
+
+# Получение всех изменений в репозитории на GitHabe
+get pull
+
+# Укорачиваем вывод на экран статуса состояния репозитория
+git status --short
+
+# Красивости отчетов по commit
+git log --oneline --graph --decorate --all
+git log --graph --abbrev-commit --decorate --all --format=format:'%C(bold blue)%h%C(reset) - %C(bold cyan)%aD%C(dim white) - %an%C(reset) %C(bold green)(%ae)%C(reset)%C(bold yellow)%d%C(reset)%n %C(white)%s%C(reset)'
+
+# Информация по веткам 
+git branch
