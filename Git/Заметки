@@ -44,5 +44,13 @@ git branch
             git reset --hard HEAD^1 
         Без очистки файлов (к пункту 2)
             git reset --soft HEAD^1
+
+# Создание ветки 
+    git branch NAME
+# Создание ветки с переходом в нее
+    git checkout -b NAME
+# Смена ветки
+    git checkout NAME
+                        
     
 
