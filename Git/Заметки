@@ -32,3 +32,17 @@ git log --graph --abbrev-commit --decorate --all --format=format:'%C(bold blue)%
 
 # Информация по веткам 
 git branch
+
+# Отмена коммитов
+1. Есть было просто сохранение:
+    git checkout .
+2. Если было сохранение и add .
+    git reset .
+    git checkout .
+3. Если был коммит
+        С очисткой файла от изменений
+            git reset --hard HEAD^1 
+        Без очистки файлов (к пункту 2)
+            git reset --soft HEAD^1
+    
+
