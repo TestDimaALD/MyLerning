@@ -13,6 +13,10 @@ git config --global user.email Dmitry.PUGIN@aldautomotive.ru
 git clone https://github.com/TestDimaALD/Work.git
 git clone https://github.com/jquery/jquery.git 
 
+# Добавление измененных файлов в локальный репозиторий
+git add .  
+git commit -m 'Add PDF Test'
+
 # Отправка всех изменений в репозиторий на GitHabe
 git push
 
